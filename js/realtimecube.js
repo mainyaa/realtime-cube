@@ -15,7 +15,7 @@
  */
 
 var VERSION = 'v1.0';
-var IS_DEBUG = false;
+var IS_DEBUG = true;
 
 /**
  * Options for the RealTime loader.
@@ -24,12 +24,12 @@ var realTimeOptions = {
   /**
    * Client ID from the API console.
    */
-   clientId: YOUR_CLIENTID_HERE,
+   clientId: "433441741368.apps.googleusercontent.com",
 
   /**
    * Application ID from the API console.
    */
-   appId: YOUR_APP_ID_HERE,
+   appId: "433441741368",
 
   /**
    * Function to be called when a RealTime model is first created.
