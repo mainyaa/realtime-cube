@@ -59,7 +59,7 @@ var realTimeOptions = {
 
 function showShareDialog() {
   var shareClient = new gapi.drive.share.ShareClient(realTimeOptions.appId);
-  shareClient.setItemIds(rtclient.params['fileId']);
+  shareClient.setItemIds(rtclient.params.fileId);
   shareClient.showSettingsDialog();
 }
 
@@ -67,7 +67,7 @@ function showShareDialog() {
 function startRealtimeCube() {
   logDebug('Starting Realtime Cube');
   var realTimeLoader = new rtclient.RealtimeLoader(realTimeOptions);
-  realTimeLoader.start(function(){document.getElementById("loading").style.display = ''});
+  realTimeLoader.start(function(){document.getElementById("loading").style.display = '';});
 }
 
 var AXIS_X = 'x';
@@ -76,7 +76,7 @@ var AXIS_Z = 'z';
 
 var MOVE_AXIS_KEY = 'axis';
 var MOVE_LAYER_KEY = 'layer';
-var MOVE_DIRECTION_KEY = 'dir'
+var MOVE_DIRECTION_KEY = 'dir';
 
 var MOVES_KEY = 'moves';
 
@@ -137,7 +137,7 @@ function onFileLoaded(doc) {
       updateCollaborators();
       setTimeout(function() {
         initCube();
-      }.bind(this), 0)
+      }.bind(this), 0);
     }.bind(this), 0);
   }.bind(this), 0);
 }
