@@ -1,4 +1,78 @@
-*.pyc
+### /Users/kazuyukimori/.gitignore-boilerplates/Global/vim.gitignore
+
+.*.sw[a-z]
+*.un~
+Session.vim
+.netrwhist
+
+### /Users/kazuyukimori/.gitignore-boilerplates/Global/tags.gitignore
+
+# Ignore tags created by etags and ctags
+TAGS
+!TAGS/
+tags
+!tags/
+
+
+### /Users/kazuyukimori/.gitignore-boilerplates/Global/linux.gitignore
+
+.*
+!.gitignore
+*~
+
+
+### /Users/kazuyukimori/.gitignore-boilerplates/Global/osx.gitignore
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+
+### /Users/kazuyukimori/.gitignore-boilerplates/python.gitignore
+
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
 .project
 .pydevproject
-.DS_Store
+
+
